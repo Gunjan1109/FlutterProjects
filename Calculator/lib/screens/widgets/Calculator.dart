@@ -13,7 +13,7 @@ class _CalculatorState extends State<Calculator> {
   double _result;
   int check;
   bool _flag = false;
-  void getExpression(String str,String value){
+  void getExpression(String value){
     setState(() {
       if((value == '1')||(value == '2')||(value == '3')||(value == '4')||(value == '5')||(value == '6')||(value == '7')||(value == '8')||(value == '9')||(value == '0') ){
         if(_flag == false)
