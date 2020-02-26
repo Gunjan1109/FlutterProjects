@@ -14,7 +14,7 @@ class Button extends StatelessWidget {
         //elevation: 10,
         color: Colors.yellow,
         onPressed: () {
-          _fn(_num,_num);
+          _fn(_num);
         },
         child: Text('$_num'
         ),
